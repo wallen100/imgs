@@ -3,27 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Web Page</title>
+    <title>Download PNG File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .download-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .download-link:hover {
+            background: #764ba2;
+        }
+        p {
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Page</h1>
-    </header>
-
-    <main>
-<p>
-<a href="https://raw.githubusercontent.com/wallen100/imgs/refs/heads/main/front-2025-10-26-1_2.png" download="front-2025-10-26-1_2.png">Download PNG</a>
-<p>
-        <p>This is a simple paragraph within the main content area.</p>
-        <p>You can add more content here, such as images, links, or other elements.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 My Simple Web Page</p>
-    </footer>
+    <div class="container">
+        <h1>Download Image</h1>
+        <a href="https://wallen100.github.io/imgs/front-2025-10-26-1_2.png" 
+           download="downloaded-image.png" 
+           class="download-link">
+            Click to Download PNG
+        </a>
+        <p>Replace the URL with your GitHub Pages image link</p>
+    </div>
 </body>
-
 </html>
+
 
 
 
