@@ -1,1 +1,61 @@
-/content/index.html
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Download PNG File</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .download-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .download-link:hover {
+            background: #764ba2;
+        }
+        p {
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div ,="" class="container" id="main-content">
+<h1>Download Image</h1>
+<a class="download-link" download="downloaded-image.png" href="https://wallen100.github.io/imgs/eyeglasses_image4.png?download=1">
+            Click to Download PNG
+        </a>
+<p>
+<a class="download-link" download="downloaded-image.png" href="https://wallen100.github.io/imgs/eyeglasses_image.png">
+            Click to Download PNG
+        </a>
+<p>Replace the URL with your GitHub Pages image link</p>
+</p></div>
+</body>
+</html>
